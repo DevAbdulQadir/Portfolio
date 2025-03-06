@@ -1,5 +1,6 @@
 {
-    "name": "react-portfolio",
+    "homepage": "https://DevAbdulQadir.github.io/Portfolio", 
+    "name": "portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -22,7 +23,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build && cp build/index.html build/404.html",
+        "predeploy": "nmp run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
