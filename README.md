@@ -1,2 +1,2 @@
 # Portfolio
-[Link]([https://support.google.com/accounts/answer/185833?hl=en](https://devabdulqadir.github.io/Portfolio)).
+[Link](https://devabdulqadir.github.io/Portfolio).
