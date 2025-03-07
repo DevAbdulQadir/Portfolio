@@ -1,2 +1,3 @@
 # Portfolio
-[Link](https://devabdulqadir.github.io/Portfolio).
+
+[Click here to view](https://devabdulqadir.github.io/Portfolio)
