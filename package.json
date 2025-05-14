@@ -1,5 +1,5 @@
 {
-    "homepage": "https://DevAbdulQadir.github.io/Portfolio", 
+    "homepage": "https://DevAbdulQadir.github.io/Portfolio",
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
@@ -13,6 +13,7 @@
         "react-icons": "^4.1.0",
         "react-router-dom": "^6.6.2",
         "react-scripts": "^5.0.1",
+        "react-toastify": "^11.0.5",
         "react-transition-group": "^4.4.2",
         "typewriter-effect": "^2.18.2",
         "web-vitals": "^3.1.1",

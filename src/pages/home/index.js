@@ -1,11 +1,24 @@
-import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import UnityIcon from "../../assets/Logo/Unity.png";
+import BlenderIcon from "../../assets/Logo/Blender.png";
+import ChatgptIcon from "../../assets/Logo/Chatgpt.png";
+import GithubIcon from "../../assets/Logo/Github.png";
+import HtmlIcon from "../../assets/Logo/Html.png";
+import OfficeIcon from "../../assets/Logo/Office.png";
+import PhotoIcon from "../../assets/Logo/Photoshop.png";
+import PythonIcon from "../../assets/Logo/Python.png";
+import VSIcon from "../../assets/Logo/VScode.png";
+import WebglIcon from "../../assets/Logo/Webgl.png";
+
 
 export const Home = () => {
+  
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -42,7 +55,7 @@ export const Home = () => {
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                      My Projects
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -50,7 +63,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/about">
                     <div id="button_h" className="ac_btn btn">
-                      About Me
+                      Proficiency
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -64,7 +77,49 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  
+
+                  <a
+                    href="/AbdulQadir_Cv.pdf"
+                    download
+                    className="text_2"
+                    onClick={() => {
+                      toast.success("📄 Downloading CV now!", {
+                        position: "bottom-center", 
+                        autoClose: 3000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: "dark", 
+                      });
+                    }}
+                  >
+                    <div id="button_cv" className="ac_btn btn mt-3">
+                      Download CV
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </a>
+                  <ToastContainer 
+                    toastStyle={{ borderRadius: "10px" }}
+                    style={{ bottom: "150px" }} 
+                    />
+                    <div className="mt-5 pt-4 text-center">
+                      <img src={UnityIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={BlenderIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={PhotoIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={WebglIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={OfficeIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={VSIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={PythonIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={HtmlIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={ChatgptIcon} alt="Unity Logo" className="tool-icon" />
+                      <img src={GithubIcon} alt="Unity Logo" className="tool-icon" />
+                    </div>
+
+
                 </div>
               </div>
             </div>

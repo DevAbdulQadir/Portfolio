@@ -109,6 +109,7 @@ section {
     cursor: pointer;
     border-radius: 0;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 .ac_btn a {
@@ -232,4 +233,15 @@ section {
 
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
+}
+.tool-icon {
+  width: 60px;
+  height: auto;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tool-icon:hover {
+  transform: scale(1.2);
 }
