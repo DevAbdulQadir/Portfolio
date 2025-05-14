@@ -22,7 +22,7 @@ import AirRobot from "./assets/Projects/AirRobot.png";
 
 
 
-const logotext = "AQ";
+const logotext = "Home";
 
 const meta = {
     title: "Abdul Qadir",
