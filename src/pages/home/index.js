@@ -80,20 +80,10 @@ export const Home = () => {
 
                   <a
                     href="https://devabdulqadir.github.io/Portfolio/AbdulQadir_Cv.pdf"
-                    download
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text_2"
-                    onClick={() => {
-                      toast.success("📄 Downloading CV now!", {
-                        position: "bottom-center", 
-                        autoClose: 3000,
-                        hideProgressBar: false,
-                        closeOnClick: true,
-                        pauseOnHover: true,
-                        draggable: true,
-                        progress: undefined,
-                        theme: "dark", 
-                      });
-                    }}
+                    
                   >
                     <div id="button_cv" className="ac_btn btn mt-3">
                       Download CV
