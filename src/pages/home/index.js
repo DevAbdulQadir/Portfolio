@@ -79,7 +79,7 @@ export const Home = () => {
                   </Link>
 
                   <a
-                    href="/AbdulQadir_Cv.pdf"
+                    href="https://devabdulqadir.github.io/Portfolio/AbdulQadir_Cv.pdf"
                     download
                     className="text_2"
                     onClick={() => {
