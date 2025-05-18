@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ad743661.css",
-    "main.js": "/Portfolio/static/js/main.12732989.js",
+    "main.css": "/Portfolio/static/css/main.52b63f45.css",
+    "main.js": "/Portfolio/static/js/main.cdb4ba28.js",
     "static/media/Counter Terrorist Shooting.png": "/Portfolio/static/media/Counter Terrorist Shooting.a8f19f3834d15c44f6ef.png",
     "static/media/DriveCar.png": "/Portfolio/static/media/DriveCar.5337106730d04709768f.png",
     "static/media/FPS Commando Shooting Strike.png": "/Portfolio/static/media/FPS Commando Shooting Strike.048ee7ed062226f4ca95.png",
@@ -28,7 +28,7 @@
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.ad743661.css",
-    "static/js/main.12732989.js"
+    "static/css/main.52b63f45.css",
+    "static/js/main.cdb4ba28.js"
   ]
 }
