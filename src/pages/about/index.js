@@ -7,7 +7,7 @@ import {
   meta,
   skills,
   services,
-} from "../../content_option";
+} from "../../contentoption";
 
 export const About = () => {
   return (

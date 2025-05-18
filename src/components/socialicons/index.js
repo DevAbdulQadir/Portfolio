@@ -12,7 +12,7 @@ import {
   FaTiktok,
   FaCircle
 } from "react-icons/fa";
-import { socialprofils } from "../../content_option";
+import { socialprofils } from "../../contentoption";
 
 const ICON_MAPPING = {
   default: FaCircle,

@@ -47,7 +47,12 @@
     z-index: 999999;
     background: var(--primary-color);
 }
-
+.site__header {
+    top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(12, 12, 12); /* 70% opacity */
+}
 .br-top {
     top: 0;
     height: 10px;
