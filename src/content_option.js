@@ -20,8 +20,6 @@ import FallGirl from "./assets/Projects/FallGirl.png";
 import CarRacingGame from "./assets/Projects/Car Racing Game.png";
 import AirRobot from "./assets/Projects/AirRobot.png";
 
-
-
 const logotext = "Home";
 
 const meta = {
@@ -38,39 +36,83 @@ const introdata = {
         forth: "Nothing beats seeing players enjoy my work!"
     },
     description: "I am Computer System Engineer. I am working as Game Developer with 9+ years experience in Simulation, Action, Open World, Puzzle and Hyper Casual Games.",
-   // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
     your_img_url: "https://i.postimg.cc/BbCbdfT2/IMG-23455.jpg",
 };
 
 const dataabout = {
     title: "About myself",
-    aboutme: "Hi, I'm AQ, a passionate game developer who loves turning ideas into immersive gaming experiences. With expertise in Unity C#, C++. I specialize in game design, programming, AI development, Shaders, Animations, optimization.",
+    aboutme: `I'm Abdul Qadir, a professional Game Developer and Data Scientist with over 9 years of experience creating high-quality 2D and 3D games across various genres including Action, Simulation, Open World, Hyper-Casual, and Puzzle. I've led full game lifecycles from concept to deployment with strong expertise in Unity (C#), C++, and gameplay systems. 
+
+I specialize in optimizing game performance, integrating AI behaviors, implementing shaders, and crafting immersive player experiences. I've published 100+ games on Android/iOS platforms, collaborating closely with artists and designers to deliver engaging, polished titles.
+
+As a Data Scientist, I bring advanced experience in Python, machine learning, and data analytics. I’ve worked on projects involving predictive modeling, deep learning (CNNs, RNNs), data visualization, and deploying ML models using frameworks like TensorFlow, scikit-learn, and Flask. I enjoy transforming complex datasets into actionable insights to support smart, data-driven decisions.`
 };
 
-
-const skills = [{
-        name: "Game Development",
-        value: 90,
-    },
-    {
-        name: "C++ / C#",
-        value: 85,
-    },
-    {
-        name: "Python",
-        value: 80,
-    },
-    {
-        name: "Blender",
-        value: 60,
-    },
-    {
-        name: "Photoshop",
-        value: 85,
-    },
+const skills = [
+  {
+    name: "Game Development",
+    value: 90,
+  },
+  {
+    name: "Unity (C#)",
+    value: 90,
+  },
+  {
+    name: "C++",
+    value: 85,
+  },
+  {
+    name: "Gameplay Programming",
+    value: 88,
+  },
+  {
+    name: "AI & NPC Behavior Scripting",
+    value: 80,
+  },
+  {
+    name: "Shader Programming (HLSL, Shader Graph)",
+    value: 75,
+  },
+  {
+    name: "Optimization & Profiling (Unity Profiler, GPU/CPU)",
+    value: 80,
+  },
+  {
+    name: "Data Structures & Algorithms",
+    value: 85,
+  },
+  {
+    name: "Python",
+    value: 85,
+  },
+  {
+    name: "Machine Learning (scikit-learn, TensorFlow)",
+    value: 75,
+  },
+  {
+    name: "Deep Learning (CNNs, RNNs)",
+    value: 70,
+  },
+  {
+    name: "Data Visualization (Matplotlib, Seaborn)",
+    value: 80,
+  },
+  {
+    name: "Pandas & NumPy",
+    value: 85,
+  },
+  {
+    name: "Blender",
+    value: 60,
+  },
+  {
+    name: "Photoshop",
+    value: 85,
+  },
 ];
 
-const services = [{
+const services = [
+    {
         title: "Game Development",
         description: "i can code for 2d and 3d all genre games for web, android and iOS. i have 100+ games live on playstore",
     },
@@ -81,6 +123,22 @@ const services = [{
     {
         title: "3d Modeler",
         description: "i can optimize, retexture and modify 3d models",
+    },
+    {
+        title: "Data Analysis",
+        description: "I can clean, transform, and analyze data using Python libraries like pandas and NumPy to uncover insights and trends.",
+    },
+    {
+        title: "Machine Learning",
+        description: "I can develop predictive models using scikit-learn and TensorFlow for real-world applications such as classification, regression, and clustering.",
+    },
+    {
+        title: "Data Visualization",
+        description: "I can create compelling and informative visualizations using tools like Matplotlib, Seaborn, and Plotly to tell data-driven stories.",
+    },
+    {
+        title: "Model Deployment",
+        description: "I can deploy machine learning models to production environments using APIs and cloud tools like Flask, FastAPI, or Streamlit.",
     },
 ];
 
